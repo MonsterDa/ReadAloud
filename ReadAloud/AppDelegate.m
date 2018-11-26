@@ -79,7 +79,7 @@
     switch (event.subtype) {
         case UIEventSubtypeRemoteControlPlay:
             NSLog(@"play");
-            [manager pauseSpeech];
+            [manager continueSpeech];
             break;
         case UIEventSubtypeRemoteControlPause:
             NSLog(@"pause");

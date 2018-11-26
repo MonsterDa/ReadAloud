@@ -177,7 +177,7 @@
     if (!self.speechSynthesizer.paused) {
         [self.speechSynthesizer pauseSpeakingAtBoundary:AVSpeechBoundaryWord];
     }else{
-        [self.speechSynthesizer continueSpeaking];
+//        [self.speechSynthesizer continueSpeaking];
     }
 }
 

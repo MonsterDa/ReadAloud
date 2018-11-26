@@ -14,20 +14,6 @@
 		DBCBABB221956CAD00341B29 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCBABB121956CAD00341B29 /* NotificationCenter.framework */; };
 		DBCBABB621956CAD00341B29 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCBABB521956CAD00341B29 /* TodayViewController.m */; };
 		DBCBABBD21956CAD00341B29 /* TodayWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DBCBABB021956CAD00341B29 /* TodayWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DBCBABCD21958B1200341B29 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCBABCC21958B1200341B29 /* IntentHandler.m */; };
-		DBCBABD521958B1200341B29 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCBABD421958B1200341B29 /* IntentsUI.framework */; };
-		DBCBABD921958B1200341B29 /* IntentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBCBABD821958B1200341B29 /* IntentViewController.m */; };
-		DBCBABDC21958B1200341B29 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBCBABDA21958B1200341B29 /* MainInterface.storyboard */; };
-		DBCBABE021958B1200341B29 /* SiriIntentsExtensionUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DBCBABD321958B1200341B29 /* SiriIntentsExtensionUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DBCBABE321958B1200341B29 /* SiriIntentsExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DBCBABC921958B1200341B29 /* SiriIntentsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DBF092F32196E296003F0159 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF092F12196E296003F0159 /* Interface.storyboard */; };
-		DBF092F52196E297003F0159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF092F42196E297003F0159 /* Assets.xcassets */; };
-		DBF092FC2196E297003F0159 /* Witch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DBF092FB2196E297003F0159 /* Witch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DBF093022196E297003F0159 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF093012196E297003F0159 /* InterfaceController.m */; };
-		DBF093052196E297003F0159 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF093042196E297003F0159 /* ExtensionDelegate.m */; };
-		DBF093082196E297003F0159 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF093072196E297003F0159 /* NotificationController.m */; };
-		DBF0930A2196E298003F0159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF093092196E298003F0159 /* Assets.xcassets */; };
-		DBF0930F2196E298003F0159 /* Witch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DBF092EF2196E295003F0159 /* Witch.app */; };
 		DBF9DDC221916ADD0030D1AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9DDC121916ADD0030D1AE /* AppDelegate.m */; };
 		DBF9DDC821916ADD0030D1AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF9DDC621916ADD0030D1AE /* Main.storyboard */; };
 		DBF9DDCA21916AE00030D1AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF9DDC921916AE00030D1AE /* Assets.xcassets */; };
@@ -53,34 +39,6 @@
 			remoteGlobalIDString = DBCBABAF21956CAD00341B29;
 			remoteInfo = TodayWidget;
 		};
-		DBCBABDE21958B1200341B29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DBF9DDB521916ADD0030D1AE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DBCBABD221958B1200341B29;
-			remoteInfo = SiriIntentsExtensionUI;
-		};
-		DBCBABE121958B1200341B29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DBF9DDB521916ADD0030D1AE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DBCBABC821958B1200341B29;
-			remoteInfo = SiriIntentsExtension;
-		};
-		DBF092FD2196E297003F0159 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DBF9DDB521916ADD0030D1AE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DBF092FA2196E297003F0159;
-			remoteInfo = "Witch Extension";
-		};
-		DBF0930D2196E298003F0159 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DBF9DDB521916ADD0030D1AE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DBF092EE2196E295003F0159;
-			remoteInfo = Witch;
-		};
 		DBF9DDD621916AE00030D1AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DBF9DDB521916ADD0030D1AE /* Project object */;
@@ -105,19 +63,6 @@
 			dstSubfolderSpec = 13;
 			files = (
 				DBCBABBD21956CAD00341B29 /* TodayWidget.appex in Embed App Extensions */,
-				DBCBABE321958B1200341B29 /* SiriIntentsExtension.appex in Embed App Extensions */,
-				DBCBABE021958B1200341B29 /* SiriIntentsExtensionUI.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBF093152196E298003F0159 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				DBF092FC2196E297003F0159 /* Witch Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,7 +73,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				DBF0930F2196E298003F0159 /* Witch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,30 +94,7 @@
 		DBCBABB521956CAD00341B29 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		DBCBABBA21956CAD00341B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBCBABC42195746400341B29 /* TodayWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TodayWidget.entitlements; sourceTree = "<group>"; };
-		DBCBABC921958B1200341B29 /* SiriIntentsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriIntentsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBCBABCB21958B1200341B29 /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
-		DBCBABCC21958B1200341B29 /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
-		DBCBABCE21958B1200341B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBCBABD321958B1200341B29 /* SiriIntentsExtensionUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiriIntentsExtensionUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCBABD421958B1200341B29 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
-		DBCBABD721958B1200341B29 /* IntentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentViewController.h; sourceTree = "<group>"; };
-		DBCBABD821958B1200341B29 /* IntentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentViewController.m; sourceTree = "<group>"; };
-		DBCBABDB21958B1200341B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		DBCBABDD21958B1200341B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBF092EF2196E295003F0159 /* Witch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Witch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBF092F22196E296003F0159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		DBF092F42196E297003F0159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DBF092F62196E297003F0159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBF092FB2196E297003F0159 /* Witch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Witch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBF093002196E297003F0159 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
-		DBF093012196E297003F0159 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
-		DBF093032196E297003F0159 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
-		DBF093042196E297003F0159 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
-		DBF093062196E297003F0159 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
-		DBF093072196E297003F0159 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
-		DBF093092196E298003F0159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DBF0930B2196E298003F0159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBF0930C2196E298003F0159 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		DBF9DDBD21916ADD0030D1AE /* ReadAloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadAloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF9DDC021916ADD0030D1AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DBF9DDC121916ADD0030D1AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -214,28 +135,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBCBABC621958B1200341B29 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBCBABD021958B1200341B29 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBCBABD521958B1200341B29 /* IntentsUI.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBF092F82196E297003F0159 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DBF9DDBA21916ADD0030D1AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,53 +171,6 @@
 			path = TodayWidget;
 			sourceTree = "<group>";
 		};
-		DBCBABCA21958B1200341B29 /* SiriIntentsExtension */ = {
-			isa = PBXGroup;
-			children = (
-				DBCBABCB21958B1200341B29 /* IntentHandler.h */,
-				DBCBABCC21958B1200341B29 /* IntentHandler.m */,
-				DBCBABCE21958B1200341B29 /* Info.plist */,
-			);
-			path = SiriIntentsExtension;
-			sourceTree = "<group>";
-		};
-		DBCBABD621958B1200341B29 /* SiriIntentsExtensionUI */ = {
-			isa = PBXGroup;
-			children = (
-				DBCBABD721958B1200341B29 /* IntentViewController.h */,
-				DBCBABD821958B1200341B29 /* IntentViewController.m */,
-				DBCBABDA21958B1200341B29 /* MainInterface.storyboard */,
-				DBCBABDD21958B1200341B29 /* Info.plist */,
-			);
-			path = SiriIntentsExtensionUI;
-			sourceTree = "<group>";
-		};
-		DBF092F02196E295003F0159 /* Witch */ = {
-			isa = PBXGroup;
-			children = (
-				DBF092F12196E296003F0159 /* Interface.storyboard */,
-				DBF092F42196E297003F0159 /* Assets.xcassets */,
-				DBF092F62196E297003F0159 /* Info.plist */,
-			);
-			path = Witch;
-			sourceTree = "<group>";
-		};
-		DBF092FF2196E297003F0159 /* Witch Extension */ = {
-			isa = PBXGroup;
-			children = (
-				DBF093002196E297003F0159 /* InterfaceController.h */,
-				DBF093012196E297003F0159 /* InterfaceController.m */,
-				DBF093032196E297003F0159 /* ExtensionDelegate.h */,
-				DBF093042196E297003F0159 /* ExtensionDelegate.m */,
-				DBF093062196E297003F0159 /* NotificationController.h */,
-				DBF093072196E297003F0159 /* NotificationController.m */,
-				DBF093092196E298003F0159 /* Assets.xcassets */,
-				DBF0930B2196E298003F0159 /* Info.plist */,
-				DBF0930C2196E298003F0159 /* PushNotificationPayload.apns */,
-			);
-			path = "Witch Extension";
-			sourceTree = "<group>";
-		};
 		DBF9DDB421916ADD0030D1AE = {
 			isa = PBXGroup;
 			children = (
@@ -326,10 +178,6 @@
 				DBF9DDD821916AE00030D1AE /* ReadAloudTests */,
 				DBF9DDE321916AE00030D1AE /* ReadAloudUITests */,
 				DBCBABB321956CAD00341B29 /* TodayWidget */,
-				DBCBABCA21958B1200341B29 /* SiriIntentsExtension */,
-				DBCBABD621958B1200341B29 /* SiriIntentsExtensionUI */,
-				DBF092F02196E295003F0159 /* Witch */,
-				DBF092FF2196E297003F0159 /* Witch Extension */,
 				DBF9DDBE21916ADD0030D1AE /* Products */,
 				DBF9DE0021917F390030D1AE /* Frameworks */,
 			);
@@ -342,10 +190,6 @@
 				DBF9DDD521916AE00030D1AE /* ReadAloudTests.xctest */,
 				DBF9DDE021916AE00030D1AE /* ReadAloudUITests.xctest */,
 				DBCBABB021956CAD00341B29 /* TodayWidget.appex */,
-				DBCBABC921958B1200341B29 /* SiriIntentsExtension.appex */,
-				DBCBABD321958B1200341B29 /* SiriIntentsExtensionUI.appex */,
-				DBF092EF2196E295003F0159 /* Witch.app */,
-				DBF092FB2196E297003F0159 /* Witch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -514,74 +358,6 @@
 			productReference = DBCBABB021956CAD00341B29 /* TodayWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		DBCBABC821958B1200341B29 /* SiriIntentsExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DBCBABE721958B1200341B29 /* Build configuration list for PBXNativeTarget "SiriIntentsExtension" */;
-			buildPhases = (
-				DBCBABC521958B1200341B29 /* Sources */,
-				DBCBABC621958B1200341B29 /* Frameworks */,
-				DBCBABC721958B1200341B29 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SiriIntentsExtension;
-			productName = SiriIntentsExtension;
-			productReference = DBCBABC921958B1200341B29 /* SiriIntentsExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		DBCBABD221958B1200341B29 /* SiriIntentsExtensionUI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DBCBABE421958B1200341B29 /* Build configuration list for PBXNativeTarget "SiriIntentsExtensionUI" */;
-			buildPhases = (
-				DBCBABCF21958B1200341B29 /* Sources */,
-				DBCBABD021958B1200341B29 /* Frameworks */,
-				DBCBABD121958B1200341B29 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SiriIntentsExtensionUI;
-			productName = SiriIntentsExtensionUI;
-			productReference = DBCBABD321958B1200341B29 /* SiriIntentsExtensionUI.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		DBF092EE2196E295003F0159 /* Witch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DBF093162196E298003F0159 /* Build configuration list for PBXNativeTarget "Witch" */;
-			buildPhases = (
-				DBF092ED2196E295003F0159 /* Resources */,
-				DBF093152196E298003F0159 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DBF092FE2196E297003F0159 /* PBXTargetDependency */,
-			);
-			name = Witch;
-			productName = Witch;
-			productReference = DBF092EF2196E295003F0159 /* Witch.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		DBF092FA2196E297003F0159 /* Witch Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DBF093142196E298003F0159 /* Build configuration list for PBXNativeTarget "Witch Extension" */;
-			buildPhases = (
-				DBF092F72196E297003F0159 /* Sources */,
-				DBF092F82196E297003F0159 /* Frameworks */,
-				DBF092F92196E297003F0159 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Witch Extension";
-			productName = "Witch Extension";
-			productReference = DBF092FB2196E297003F0159 /* Witch Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
 		DBF9DDBC21916ADD0030D1AE /* ReadAloud */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBF9DDE921916AE10030D1AE /* Build configuration list for PBXNativeTarget "ReadAloud" */;
@@ -596,9 +372,6 @@
 			);
 			dependencies = (
 				DBCBABBC21956CAD00341B29 /* PBXTargetDependency */,
-				DBCBABDF21958B1200341B29 /* PBXTargetDependency */,
-				DBCBABE221958B1200341B29 /* PBXTargetDependency */,
-				DBF0930E2196E298003F0159 /* PBXTargetDependency */,
 			);
 			name = ReadAloud;
 			productName = ReadAloud;
@@ -658,18 +431,6 @@
 							};
 						};
 					};
-					DBCBABC821958B1200341B29 = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					DBCBABD221958B1200341B29 = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					DBF092EE2196E295003F0159 = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					DBF092FA2196E297003F0159 = {
-						CreatedOnToolsVersion = 10.1;
-					};
 					DBF9DDBC21916ADD0030D1AE = {
 						CreatedOnToolsVersion = 10.0;
 						SystemCapabilities = {
@@ -711,10 +472,6 @@
 				DBF9DDD421916AE00030D1AE /* ReadAloudTests */,
 				DBF9DDDF21916AE00030D1AE /* ReadAloudUITests */,
 				DBCBABAF21956CAD00341B29 /* TodayWidget */,
-				DBCBABC821958B1200341B29 /* SiriIntentsExtension */,
-				DBCBABD221958B1200341B29 /* SiriIntentsExtensionUI */,
-				DBF092EE2196E295003F0159 /* Witch */,
-				DBF092FA2196E297003F0159 /* Witch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -724,38 +481,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBCBABC721958B1200341B29 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBCBABD121958B1200341B29 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBCBABDC21958B1200341B29 /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBF092ED2196E295003F0159 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBF092F52196E297003F0159 /* Assets.xcassets in Resources */,
-				DBF092F32196E296003F0159 /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBF092F92196E297003F0159 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBF0930A2196E298003F0159 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,32 +518,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBCBABB621956CAD00341B29 /* TodayViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBCBABC521958B1200341B29 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBCBABCD21958B1200341B29 /* IntentHandler.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBCBABCF21958B1200341B29 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBCBABD921958B1200341B29 /* IntentViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBF092F72196E297003F0159 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBF093052196E297003F0159 /* ExtensionDelegate.m in Sources */,
-				DBF093022196E297003F0159 /* InterfaceController.m in Sources */,
-				DBF093082196E297003F0159 /* NotificationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -864,26 +563,6 @@
 			target = DBCBABAF21956CAD00341B29 /* TodayWidget */;
 			targetProxy = DBCBABBB21956CAD00341B29 /* PBXContainerItemProxy */;
 		};
-		DBCBABDF21958B1200341B29 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DBCBABD221958B1200341B29 /* SiriIntentsExtensionUI */;
-			targetProxy = DBCBABDE21958B1200341B29 /* PBXContainerItemProxy */;
-		};
-		DBCBABE221958B1200341B29 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DBCBABC821958B1200341B29 /* SiriIntentsExtension */;
-			targetProxy = DBCBABE121958B1200341B29 /* PBXContainerItemProxy */;
-		};
-		DBF092FE2196E297003F0159 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DBF092FA2196E297003F0159 /* Witch Extension */;
-			targetProxy = DBF092FD2196E297003F0159 /* PBXContainerItemProxy */;
-		};
-		DBF0930E2196E298003F0159 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DBF092EE2196E295003F0159 /* Witch */;
-			targetProxy = DBF0930D2196E298003F0159 /* PBXContainerItemProxy */;
-		};
 		DBF9DDD721916AE00030D1AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DBF9DDBC21916ADD0030D1AE /* ReadAloud */;
@@ -897,22 +576,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DBCBABDA21958B1200341B29 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DBCBABDB21958B1200341B29 /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-		DBF092F12196E296003F0159 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DBF092F22196E296003F0159 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
 		DBF9DDC621916ADD0030D1AE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -961,156 +624,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		DBCBABE521958B1200341B29 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q65UTQ4J86;
-				INFOPLIST_FILE = SiriIntentsExtensionUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lutengda.ReadAloud.SiriIntentsExtensionUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DBCBABE621958B1200341B29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q65UTQ4J86;
-				INFOPLIST_FILE = SiriIntentsExtensionUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lutengda.ReadAloud.SiriIntentsExtensionUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		DBCBABE821958B1200341B29 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q65UTQ4J86;
-				INFOPLIST_FILE = SiriIntentsExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lutengda.ReadAloud.SiriIntentsExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DBCBABE921958B1200341B29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q65UTQ4J86;
-				INFOPLIST_FILE = SiriIntentsExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lutengda.ReadAloud.SiriIntentsExtension;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		DBF093102196E298003F0159 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q65UTQ4J86;
-				IBSC_MODULE = Witch_Extension;
-				INFOPLIST_FILE = Witch/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lutengda.ReadAloud.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
-			};
-			name = Debug;
-		};
-		DBF093112196E298003F0159 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q65UTQ4J86;
-				IBSC_MODULE = Witch_Extension;
-				INFOPLIST_FILE = Witch/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lutengda.ReadAloud.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
-			};
-			name = Release;
-		};
-		DBF093122196E298003F0159 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Witch Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lutengda.ReadAloud.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
-			};
-			name = Debug;
-		};
-		DBF093132196E298003F0159 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Witch Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lutengda.ReadAloud.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.1;
 			};
 			name = Release;
 		};
@@ -1344,42 +857,6 @@
 			buildConfigurations = (
 				DBCBABBF21956CAD00341B29 /* Debug */,
 				DBCBABC021956CAD00341B29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DBCBABE421958B1200341B29 /* Build configuration list for PBXNativeTarget "SiriIntentsExtensionUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DBCBABE521958B1200341B29 /* Debug */,
-				DBCBABE621958B1200341B29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DBCBABE721958B1200341B29 /* Build configuration list for PBXNativeTarget "SiriIntentsExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DBCBABE821958B1200341B29 /* Debug */,
-				DBCBABE921958B1200341B29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DBF093142196E298003F0159 /* Build configuration list for PBXNativeTarget "Witch Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DBF093122196E298003F0159 /* Debug */,
-				DBF093132196E298003F0159 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DBF093162196E298003F0159 /* Build configuration list for PBXNativeTarget "Witch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DBF093102196E298003F0159 /* Debug */,
-				DBF093112196E298003F0159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
